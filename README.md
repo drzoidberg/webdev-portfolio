@@ -1,8 +1,16 @@
 # listado de documentos
 
 
-## 🖼 banners/banners_20190117_adwords_raphael_a.jpg
+## 🖼 banners/static/banners_20190117_adwords_raphael_a.jpg
 Una previsualización del documento en el que trabajo para exportar una misma creatividad en diferentes resoluciones
+
+
+## 🖼 html-practices/html-practices_card01.html
+Una práctica sobre posicionamiento de elementos html.
+
+
+## 🖼 html-practices/html-practices_card02.html
+Una práctica sobre posicionamiento de elementos html y transiciones
 
 
 ## 🖼 otros/20190117_Ticket_raphael_a.jpg

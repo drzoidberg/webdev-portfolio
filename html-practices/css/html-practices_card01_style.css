@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,400,700&display=swap');
+
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+#masthead p{
+    font-size: 1.75rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #666;
+    text-align: right;
+    margin: 3rem 3rem 2rem 0;
+}
+
+body {
+    background: linear-gradient(-193deg, rgba(220,220,220,1) 0%, rgba(120,120,120,1) 100%);
+    width: 100%;
+    /* height: 100%; */
+    /* para que inicialmente el navegador reconozca la altura de la pantalla, se debe colocar el height al elemento <html> */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card {
+    width: 900px;
+    height: 530px;
+    margin: 0 auto;
+    background: url(../img/martin-schoeller_MatthewMcConaughey-bg.jpg);
+    background-size: cover;
+    background-position: top 0 left -100px;
+    /* filter: grayscale(100%); */
+    border-radius: 1rem;
+    box-shadow: 0 5rem 8rem rgba(0,0,0,0.3);
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+}
+
+.menu .otros-proyectos {
+    font-size: 0.6rem;
+    font-weight: 800;
+}
+
+.otros-proyectos::before,
+.otros-proyectos::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.otros-proyectos p {
+    font-size: 0.75rem;
+}
+
+
+.otros-proyectos p,
+.otros-proyectos .icon {
+    color: #ff2800;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+.otros-proyectos .icon {
+    font-size: 1.5rem;
+    line-height: 1.1;
+}
+
+.menu .like {
+    color: #2f69ff;
+    font-weight: 800;
+    margin-top: -0.15rem;
+    margin-left: 20px;
+    float: left;
+}
+
+.like p {
+    margin-left: 0;
+    padding: 0;
+}
+
+.menu .otros-proyectos,
+.menu .puntos-suspensivos {
+    float: right;
+}
+
+.menu .puntos-suspensivos {
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 1.3rem;
+    margin-right: 20px;
+    margin-left: 55px;
+}
+
+.menu::before,
+.menu::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.dise {
+    color: #747474;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+.block-text-paella {
+    position: absolute;
+    left: 85px;
+    top: 100px;
+}
+
+.block-text-paella .texto {
+    font-size: 29px;
+    color: #333;
+    width: 250px;
+    height: 100px;
+    margin: 0;
+    margin-top: -5px;
+}
+
+.block-text-peim {
+    position: absolute;
+    bottom: 145px;
+    left: 76px;
+    font-size: 125px;
+    color: #bcbcbc;
+}
+
+.block-text-001 {
+    color: #aaa;
+    font-size: 80px;
+    font-family: 'Ubuntu Condensed';
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.block-text-nombre {
+    width: 145px;
+    height: 40px;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 10px;
+    top: 152px;
+}
+
+.block-text-nombre .name {
+    line-height: 1;
+    font-size: 18.4px;
+    color: #333;
+}
+
+.block-text-nombre .separator {
+    width: 135px;
+    height: 3px;
+    background: #333;
+    margin-top: 5px;
+}
+
+.block-colored {
+    width: 685px;
+    height: 180px;
+    position: absolute;
+    bottom: 20px;
+    background-color: orange;
+    right: 0;
+    background-blend-mode: multiply;
+    opacity: 0.25;
+}
+
+.block-btn {
+    background: #111;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+
+.block-btn .btn {
+    color: #2F69FF;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.block-text-loqueyoldiga {
+    width: 135px;
+    height: 60px;
+    position: absolute;
+    bottom: 70px;
+    right: 80px;
+}
+
+
+.block-text-loqueyoldiga .dise {
+    color: #b11f06;
+}
+
+.block-text-loqueyoldiga .texto {
+    font-size: 25px;
+    margin: 0;
+}
+
+.block-text-loqueyoldiga {
+    margin-top: -5px;
+    color: #ff2800;
+}

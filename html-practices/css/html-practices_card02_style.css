@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i|Source+Code+Pro:400,700|Ubuntu:500&display=swap');
+
+
+/* .blop {
+    transform: scale() translateY();
+} */
+
+/*
+
+    Propiedades css a investigar:
+    line-height
+    letter-spacing
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+
+*/
+
+/* selector:hover selector {
+    magia: valor;
+} */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+::selection {
+    background-color: #FAEBBE;
+    color: rgb(92, 48, 3)
+}
+
+body {
+    background: linear-gradient(180deg, rgb(49, 49, 49) 0%, #232323 100%);
+    /* background: linear-gradient(180deg, rgba(104,104,104,1) 0%, #232323 100%); */
+}
+
+#masthead p{
+    font-size: 1.25rem;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 400;
+    color: #bbb;;
+    text-align: right;
+    margin: 2rem 2rem 2rem 0;
+}
+
+.card {
+    width: 900px;
+    height: 533px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1rem 1rem rgba(0,0,0, 0.5);
+    border: 1px solid #191919
+}
+
+.card:hover {
+    cursor: default;
+}
+
+/* .shadow1 {
+    width: 95%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: black;
+    filter: blur(2rem);
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+.shadow2 {
+    width: 65%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.7);
+    filter: blur(2rem);
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    right: 0;
+    z-index: -1;
+} */
+
+.text-block-square {
+    width: 315px;
+    height: 260px;
+    position: absolute;
+    bottom: 85px;
+    right: 30px;
+}
+
+.text-block-square p.text {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    line-height: 56px;
+    letter-spacing: 54px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    word-wrap: break-word;
+    opacity: 0;
+    transition: 0.5s opacity;
+}
+
+
+.card:hover .text-block-square p.text {
+    opacity: 1;
+}
+
+.text-block-quote {
+    width: 345px;
+    height: 185px;
+    position: absolute;
+    top: 115px;
+    right: 60px;
+    opacity: 1;
+}
+
+.text-block-quote p.text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #FAEBBE;
+    font-size: 28px;
+    opacity: 0;
+    transition: 3.5s opacity ease-in-out;
+}
+
+.card:hover .text-block-quote p.text {
+    opacity: 1;
+}
+
+.decorative-lines {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    border-top-color: #FAEBBE;
+    border-right-color: #FAEBBE;
+    border-bottom-color: rgba(250, 235, 190, 0);
+    border-left-color: rgba(250, 235, 190, 0);
+    border-width: 1px;
+    border-style: solid;
+    opacity: 0;
+    transition: 0.5s opacity ease-in;
+}
+
+.card:hover .decorative-lines {
+    opacity: 1;
+}
+
+.text-block-name-vertical {
+    width: 100px;
+    height: 370px;
+    position: absolute;
+    top: 60px;
+    left: 365px;
+}
+
+.text-block-name-vertical p.text {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    /* line-height: 48px; */
+    letter-spacing: 30px;
+    color: white;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-right: 28px;
+    float: left;
+    opacity: 0;
+    transition: 2s opacity ease-in;
+}
+
+.card:hover .text-block-name-vertical p.text {
+    opacity: 1;
+}
+p.text.name {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+p.text.surname {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.bg {
+    width: 450px;
+    height: 535px;
+    position: absolute;
+    top: 0;
+    left: 55px;
+}
+
+.bg::before,
+.bg::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card .bg img {
+    float: left;
+    opacity: 0;
+}
+
+/* transiciones */
+
+.card:hover .bg img {
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+}
+
+/* .bg img:nth-child(odd) {
+    float:left;
+    transform: translateY(-80px);
+    transition: 1s all ease-in-out;
+}
+
+.bg img:nth-child(even) {
+    float:left;
+    transform: translateY(80px);
+    transition: 0.5s all ease-out;
+} */
+
+.card:hover .bg img.pic01,
+.card:hover .bg img.pic02,
+.card:hover .bg img.pic03,
+.card:hover .bg img.pic04,
+.card:hover .bg img.pic05,
+.card:hover .bg img.pic06,
+.card:hover .bg img.pic07,
+.card:hover .bg img.pic08,
+.card:hover .bg img.pic09,
+.card:hover .bg img.pic10,
+.card:hover .bg img.pic11,
+.card:hover .bg img.pic12,
+.card:hover .bg img.pic13,
+.card:hover .bg img.pic14,
+.card:hover .bg img.pic15,
+.card:hover .bg img.pic16 {
+    transform: translateY(0);
+}
+
+.bg img.pic01 {
+    transform: translateY(-90px);
+    transition: 1.2s all ease-in-out;
+}
+
+.bg img.pic02 {
+    transform: translateY(80px);
+    transition: 1.4s all ease-in-out;
+}
+
+.bg img.pic03 {
+    transform: translateY(-60px);
+    transition: 1.6s all ease-in-out;
+}
+
+.bg img.pic04 {
+    transform: translateY(50px);
+    transition: 1.1s all ease-in-out;
+}
+
+.bg img.pic05 {
+    transform: translateY(-70px);
+    transition: 1.5s all ease-in-out;
+}
+
+.bg img.pic06 {
+    transform: translateY(90px);
+    transition: 1.2s all ease-in-out;
+}
+
+.bg img.pic07 {
+    transform: translateY(-80px);
+    transition: 1.6s all ease-in-out;
+}
+
+.bg img.pic08 {
+    transform: translateY(40px);
+    transition: 1.7s all ease-in-out;
+}
+
+.bg img.pic09 {
+    transform: translateY(-70px);
+    transition: 1.1s all ease-in-out;
+}
+
+.bg img.pic10 {
+    transform: translateY(60px);
+    transition: 1.4s all ease-in-out;
+}
+
+.bg img.pic11 {
+    transform: translateY(-30px);
+    transition: 1.5s all ease-in-out;
+}
+
+.bg img.pic12 {
+    transform: translateY(80px);
+    transition: 1.2s all ease-in-out;
+}
+
+.bg img.pic13 {
+    transform: translateY(-40px);
+    transition: 1.3s all ease-in-out;
+}
+
+.bg img.pic14 {
+    transform: translateY(50px);
+    transition: 1.7s all ease-in-out;
+}
+
+.bg img.pic15 {
+    transform: translateY(-70px);
+    transition: 1.1s all ease-in-out;
+}
+
+.bg img.pic16 {
+    transform: translateY(80px);
+    transition: 1s all ease-in-out;
+}
+
