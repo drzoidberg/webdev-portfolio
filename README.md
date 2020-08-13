@@ -1,4 +1,4 @@
-# listado de documentos
+# listado de proyectos/documentos
 
 ## banners
 ### 🖼 banners/static/banners_20190117_adwords_raphael_a.jpg
@@ -36,7 +36,7 @@ Una prueba de espaciado de una tipografía corporativa (creada por mí), en fase
 
 
 ## web development
-### 👨‍💻 frontend-playground-react [Link al proyecto](https://github.com/drzoidberg/frontend-playground-react)
+### 👨‍💻 frontend-playground-react [(Link al proyecto)](https://github.com/drzoidberg/frontend-playground-react)
 
 Un proyecto realizado con React que sirve de contenedor para componentes variados, la mayoría centrados en interfaces de usuario o relacionados con el tema
 
