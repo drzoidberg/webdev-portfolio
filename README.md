@@ -35,5 +35,10 @@ Un ejercicio que realicé durante mi época de estudio en el Grado en Diseño en
 Una prueba de espaciado de una tipografía corporativa (creada por mí), en fase de desarrollo
 
 
-### Para trabajos relacionados con programación
-Visita por favor [mi perfil de github](https://github.com/drzoidberg). Los proyectos están suficientemente documentados
+## web development
+### 👨‍💻 frontend-playground-react [Link al proyecto](https://github.com/drzoidberg/frontend-playground-react)
+
+Un proyecto realizado con React que sirve de contenedor para componentes variados, la mayoría centrados en interfaces de usuario o relacionados con el tema
+
+### 👨‍💻 Para el resto de trabajos relacionados con programación web
+Visita por favor [mi perfil de github](https://github.com/drzoidberg). Cada proyecto está suficientemente documentados
