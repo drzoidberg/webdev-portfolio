@@ -1,5 +1,7 @@
 # webdev-portfolio
 
+webdev-portfolio is a tiny collection of works related to webdev & graphic design
+
 ## banners
 ### 🖼 banners/static/banners_20190117_adwords_raphael_a.jpg
 Una previsualización del documento en el que trabajo para exportar una misma creatividad en diferentes resoluciones
