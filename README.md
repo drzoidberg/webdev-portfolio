@@ -10,16 +10,18 @@ Una previsualización del documento en el que trabajo para exportar una misma cr
 
 ### 🖼 html-practices/html-practices_card01.html
 Una práctica sobre posicionamiento de elementos html.
-<img alt="banners_20190117_adwords_raphael_a.jpg" src="https://raw.githubusercontent.com/drzoidberg/webdev-portfolio/master/banners/static/20190117_adwords_raphael_a.jpg" />
+<img alt="html-practices_card01.png" src="/assets/html-practices_card01.png" />
 
 
 ### 🖼 html-practices/html-practices_card02.html
 Una práctica sobre posicionamiento de elementos html y transiciones
+<img alt="html-practices_card02.png" src="/assets/html-practices_card02.png" />
 
 
 ## other
 ### 🖼 other/20190117_Ticket_raphael_a.jpg
 Una previsualización de una entrada, asociado con la creatividad del banner "banners_20190117_adwords_raphael_a.jpg"
+<img alt="20190117_Ticket_raphael_a.jpg" src="/other/20190117_Ticket_raphael_a.jpg" />
 
 
 ### 🖼 other/other_life-calendar.pdf
@@ -28,15 +30,22 @@ Un pequeño documento de juguete. Pensado para imprimir en un papel especial. De
 
 ### 🖼 other/other_color-light-focus.jpg
 Una ilustración que acabé realizando cuando exploré la manipulación del color con Photoshop.
+<img alt="other_color-light-focus.jpg" src="/other/other_color-light-focus.jpg" />
+
 
 
 ## typography
 ### 🔤 typography/typography_anatomia-del-tipo.pdf
 Un ejercicio que realicé durante mi época de estudio en el Grado en Diseño en la EASD de Alcoy
+<img alt="anatomia-del-tipo01.gif" src="/assets/anatomia-del-tipo01.gif" />
+<img alt="anatomia-del-tipo02.gif" src="/assets/anatomia-del-tipo02.gif" />
+
 
 
 ### 🔤 typography/typography_skeletor-prueba-de-espaciado.pdf
 Una prueba de espaciado de una tipografía corporativa (creada por mí), en fase de desarrollo
+<img alt="typography_skeletor-prueba-de-espaciado.gif" src="/assets/typography_skeletor-prueba-de-espaciado.gif" />
+
 
 
 ## web development
