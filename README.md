@@ -2,12 +2,7 @@
 
 webdev-portfolio is a tiny collection of works related to webdev & graphic design
 
-## banners
-### 🖼 banners/static/banners_20190117_adwords_raphael_a.jpg
-Una previsualización del documento en el que trabajo para exportar una misma creatividad en diferentes resoluciones
-<img alt="banners_20190117_adwords_raphael_a.jpg" src="https://raw.githubusercontent.com/drzoidberg/webdev-portfolio/master/banners/static/20190117_adwords_raphael_a.jpg" />
-
-
+## html-practices
 ### 🖼 html-practices/html-practices_card01.html
 Una práctica sobre posicionamiento de elementos html.
 <img alt="html-practices_card01.png" src="/assets/html-practices_card01.png" />
@@ -16,6 +11,12 @@ Una práctica sobre posicionamiento de elementos html.
 ### 🖼 html-practices/html-practices_card02.html
 Una práctica sobre posicionamiento de elementos html y transiciones
 <img alt="html-practices_card02.png" src="/assets/html-practices_card02.png" />
+
+
+## banners
+### 🖼 banners/static/banners_20190117_adwords_raphael_a.jpg
+Una previsualización del documento en el que trabajo para exportar una misma creatividad en diferentes resoluciones
+<img alt="banners_20190117_adwords_raphael_a.jpg" src="https://raw.githubusercontent.com/drzoidberg/webdev-portfolio/master/banners/static/20190117_adwords_raphael_a.jpg" />
 
 
 ## other
